@@ -83,23 +83,25 @@
         <!-- Presto SPI -->
 
         <dependency>
-            <groupId>io.prestosql</groupId>
-            <artifactId>presto-main</artifactId>
-            <version>${presto.version}</version>
+            <groupId>io.trino</groupId>
+            <artifactId>trino-array</artifactId>
+            <version>351</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/io.trino/trino-spi -->
         <dependency>
-            <groupId>io.prestosql</groupId>
-            <artifactId>presto-array</artifactId>
-            <version>${presto.version}</version>
+            <groupId>io.trino</groupId>
+            <artifactId>trino-spi</artifactId>
+            <version>351</version>
             <scope>provided</scope>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/io.trino/trino-main -->
         <dependency>
-            <groupId>io.prestosql</groupId>
-            <artifactId>presto-spi</artifactId>
-            <version>${presto.version}</version>
+            <groupId>io.trino</groupId>
+            <artifactId>trino-main</artifactId>
+            <version>351</version>
+            <scope>test</scope>
         </dependency>
+
 
         <dependency>
             <groupId>io.airlift</groupId>
