@@ -1,1 +1,1 @@
-com.analysys.presto.connector.hbase.frame.HBasePlugin
+com.analysys.trino.connector.hbase.frame.HBasePlugin

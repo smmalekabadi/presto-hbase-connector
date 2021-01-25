@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="presto-hbase-connector" />
+        <module name="trino-hbase-connector" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="presto-hbase-connector" target="11" />
+      <module name="trino-hbase-connector" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
